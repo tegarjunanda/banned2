@@ -79,7 +79,7 @@ echo $cy "[8]"$me" EXIT"
 echo "=================================================="
 echo
 echo
-echo $cy"┌==="$bi"[ TEGAR SS ]"
+echo $cy"┌==="$bi"[ TEGAR HACK ]"
 echo $cy"¦"
 read -p">>>" pil;
 
@@ -91,7 +91,7 @@ pkg install git -y
 pkg install python2 -y
 git clone https://github.com/FR13ND8/BRUTEFORCEnew
 cd BRUTEFORCEnew
-badh new.sh
+sh new.sh
 fi
 
 if [ $pil = 2 ]
@@ -115,6 +115,7 @@ then
 clear
 git clone https://github.com/zlucifer/termux_alice
 cd termux_alice
+sh alice.sh
 fi
 
 if [ $pil = 5 ]
@@ -122,7 +123,7 @@ then
 clear
 git clone https://github.com/zlucifer/paladin_project
 cd paladin_project
-bash,paladin.sh
+sh paladin.sh
 fi
 
 if [ $pil = 6 ]
@@ -151,6 +152,6 @@ sleep 2
 echo $i"Bila Ada Bug  Bisa Nanya Kepada Saya"
 sleep 2
 echo $i"WhatsApp :"$i" 083187490767"
-echo $bi"Facebook :"$i" TEGAR JUNANDA"
+echo $bi"Facebook :"$i" TEGAR MARLEEY"
 exit
-fi
+fi+
